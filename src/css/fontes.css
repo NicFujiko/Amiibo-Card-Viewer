@@ -1,0 +1,16 @@
+@font-face {
+    font-family: 'Logo';
+    src: url(../fonts/Logo.otf
+)
+
+}
+
+@font-face {
+    font-family: 'Texto Bold';
+    src: url(../fonts/Texto\ BOLD.otf);
+}
+
+@font-face {
+    font-family: 'Texto';
+    src: url(../fonts/Texto.otf);
+}

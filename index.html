@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animal Crossing Amiibo</title>
+    <link rel="stylesheet" href="src/css/fontes.css">
+    <link rel="stylesheet" href="src/css/reset.css">
+    <link rel="stylesheet" href="src/css/estilos.css">
+    <link rel="stylesheet" href="src/css/responsivo.css">
+</head>
+
+<body>
+
+    <header class="cabecalho">
+        <img class="titulo" src="src/imagens/Logo.png" alt="Logo Título">
+    </header>
+
+    <main class="slider">
+        <button class="btn-seta btn-voltar" id="btn-voltar">
+        <img src="src/imagens/seta.png" alt="seta voltar">
+        </button>
+        
+        <ul class="lista">
+
+            <!-- Cartão Vesta --> 
+            <li class="cartao fundo bg1 selecionado"> 
+
+                <div class="carta-virada"></div>
+
+                <div class="cabecalho-carta">
+                <img src="src/imagens/vesta/specie.png" alt="EspecieOvelha">
+                <img src="src/imagens/vesta/signo.png" alt="SignoCapricornio">
+                </div>
+
+                <div >
+                <img class="villager" src="src/imagens/vesta/villager.png" alt="VestaPhoto">
+                </div>
+
+                <div class="rodape-carta">
+                    <div class="informacoes">
+                    <p class="catchphrase">baaaffo</p>
+                    <p class="nome">Vesta</p>
+                    <p class="aniversario">16/04</p>
+                    </div>
+
+                    <div>
+                    <p class="quote">No sweater off my back.</p>
+                    </div>
+                </div>
+
+
+            </li>
+
+            <!-- Cartão Lionel -->
+            <li class="cartao fundo bg5"> 
+
+                <div class="carta-virada"></div>
+
+                <div class="cabecalho-carta">
+                <img src="src/imagens/lionel/specie.png" alt="EspecieLeão">
+                <img src="src/imagens/lionel/signo.png" alt="SignoLeão">
+                </div>
+
+                <div >
+                <img class="villager" src="src/imagens/lionel/villager.png" alt="LionelPhoto">
+                </div>
+
+                <div class="rodape-carta">
+                    <div class="informacoes">
+                    <p class="catchphrase">precisely</p>
+                    <p class="nome">Lionel</p>
+                    <p class="aniversario">29/07</p>
+                    </div>
+
+                    <div>
+                    <p class="quote">Love is blind.</p>
+                    </div>
+                </div>
+
+            </li>
+
+            <!-- Cartão Bob -->
+            <li class="cartao fundo bg4"> 
+
+                <div class="carta-virada"></div>
+
+                <div class="cabecalho-carta">
+                <img src="src/imagens/bob/specie.png" alt="EspecieEsquilo">
+                <img src="src/imagens/bob/signo.png" alt="SignoCapricornio">
+                </div>
+
+                <div >
+                <img class="villager" src="src/imagens/bob/villager.png" alt="BobPhoto">
+                </div>
+
+                <div class="rodape-carta">
+                    <div class="informacoes">
+                    <p class="catchphrase">pthhpth</p>
+                    <p class="nome">Bob</p>
+                    <p class="aniversario">01/01</p>
+                    </div>
+
+                    <div>
+                    <p class="quote" id="bob-quote">You only live once... or nine times.</p>
+                    </div>
+                </div>
+
+            </li>
+
+            <!-- Cartão Eugene -->
+            <li class="cartao fundo bg3"> 
+                
+                <div class="carta-virada"></div>
+
+                <div class="cabecalho-carta">
+                <img src="src/imagens/eugene/specie.png" alt="EspecieCoala">
+                <img src="src/imagens/eugene/signo.png" alt="SignoEscorpião">
+                </div>
+
+                <div >
+                <img class="villager" src="src/imagens/eugene/villager.png" alt="EugenePhoto">
+                </div>
+
+                <div class="rodape-carta">
+                    <div class="informacoes">
+                    <p class="catchphrase">yeah buddy</p>
+                    <p class="nome">Eugene</p>
+                    <p class="aniversario">26/10</p>
+                    </div>
+
+                    <div>
+                    <p class="quote">We're all in the same world.</p>
+                    </div>
+                </div>
+
+            </li>
+
+            <!-- Cartão Static -->
+            <li class="cartao fundo bg2"> 
+
+                <div class="carta-virada"></div>
+
+                <div class="cabecalho-carta">
+                <img src="src/imagens/static/specie.png" alt="EspecieEsquilo">
+                <img src="src/imagens/static/signo.png" alt="SignoCancer">
+                </div>
+
+                <div >
+                <img class="villager" src="src/imagens/static/villager.png" alt="StaticPhoto">
+                </div>
+
+                <div class="rodape-carta">
+                    <div class="informacoes">
+                    <p class="catchphrase">krzzt</p>
+                    <p class="nome">Static</p>
+                    <p class="aniversario">09/07</p>
+                    </div>
+
+                    <div>
+                    <p class="quote">Lightning never strikes twice.</p>
+                    </div>
+                </div>
+
+            </li>
+
+            <!-- Cartão Zucker -->
+            <li class="cartao fundo bg7"> 
+
+                <div class="carta-virada"></div>
+
+                <div class="cabecalho-carta">
+                <img src="src/imagens/zucker/specie.png" alt="EspecieCachorro">
+                <img src="src/imagens/zucker/signo.png" alt="SignoEscorpião">
+                </div>
+
+                <div >
+                <img class="villager" src="src/imagens/zucker/villager.png" alt="ZuckerPhoto">
+                </div>
+
+                <div class="rodape-carta">
+                    <div class="informacoes">
+                    <p class="catchphrase">bloop</p>
+                    <p class="nome">Zucker</p>
+                    <p class="aniversario">08/03</p>
+                    </div>
+
+                    <div>
+                    <p class="quote">There's no such thing as luck.</p>
+                    </div>
+                </div>
+
+            </li>
+
+            <!-- Cartão Daisy -->
+            <li class="cartao fundo bg6 "> 
+
+                <div class="carta-virada"></div>
+
+                <div class="cabecalho-carta">
+                <img src="src/imagens/daisy/specie.png" alt="EspecieCachorro">
+                <img src="src/imagens/daisy/signo.png" alt="SignoEscorpião">
+                </div>
+
+                <div >
+                <img class="villager" src="src/imagens/daisy/villager.png" alt="DaisyPhoto">
+                </div>
+
+                <div class="rodape-carta">
+                    <div class="informacoes">
+                    <p class="catchphrase">bow WOW</p>
+                    <p class="nome">Daisy</p>
+                    <p class="aniversario">16/11</p>
+                    </div>
+
+                    <div>
+                    <p class="quote" id="daisy-quote">It's not always a dog-eat-dog world.</p>
+                    </div>
+                </div>
+
+            </li>
+
+            <li></li>
+
+        </ul>
+
+        <button class="btn-seta btn-avancar" id="btn-avancar">
+        <img src="src/imagens/seta.png" alt="seta avançar">
+        </button>
+
+    </main>
+    <script src="src/js/index.js"></script>
+</body>
+</html>

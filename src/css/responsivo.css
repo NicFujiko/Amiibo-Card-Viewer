@@ -1,0 +1,107 @@
+@media(max-width: 430px) {
+    .lista, .cartao{
+        top: 20px;
+        width: 90%;
+        margin: 0;
+    }
+
+    .slider {
+        position: relative;
+    }
+
+    .btn-seta{
+        position: absolute;
+        bottom: -160px;
+    }
+
+    .btn-avancar{
+        right: 20%;
+    }
+
+    .btn-voltar{
+        left: 20%;
+    }
+
+    header img{
+        width: 90%;
+    }
+}
+
+@media(max-width: 390px) {
+    .lista, .cartao{
+        top: 0px;
+        width: 90%;
+        margin: 0;
+    }
+
+    .rodape-carta{
+        width: 270px;
+    }
+
+    .slider {
+        position: relative;
+    }
+
+    .btn-seta{
+        position: absolute;
+        bottom: -85px;
+    }
+
+    .btn-avancar{
+        right: 20%;
+    }
+
+    .btn-voltar{
+        left: 20%;
+    }
+
+    header img{
+        margin-top: 20px;
+        width: 90%;
+    }
+}
+
+@media(max-width: 375px) {
+    .lista, .cartao{
+        top: -5px;
+        width: 270px;
+        height: 450px;
+        margin: 0;
+    }
+
+    .rodape-carta{
+        width: 270px;
+    }
+
+    .villager{
+        width: 215px;
+    }
+
+    .slider {
+        position: relative;
+    }
+
+    .btn-seta{
+        position: absolute;
+        bottom: -55px;
+    }
+
+    .btn-seta, .btn-seta img{
+        width: 50px;
+        height: 50px;
+    }
+
+    .btn-avancar{
+        right: 20%;
+    }
+
+    .btn-voltar{
+        left: 20%;
+    }
+
+    header img{
+        margin-top: 10px;
+        padding: 15px;
+        width: 90%;
+    }
+}
