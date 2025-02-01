@@ -40,8 +40,6 @@ header img{
     position: absolute;
     padding: 15px;
     transition: 0.8s;
-
-
 }
 
 .cartao.selecionado{
@@ -194,7 +192,7 @@ header img{
 
 .carta-virada.mostrar-fundo-carta{
     display: block;
-    width: 300px;
+    width: 300px;   
     height: 500px;
     border-radius: 25px;
     position: absolute;
@@ -210,7 +208,9 @@ header img{
 
 .cartao.virar{
     transform: rotateY(180deg);
-    transition: transform 0.6s ease-in-out;
+    transition: transform 0.8s;
+    transition: 0.8s;
+
 }
 
 .esconder {

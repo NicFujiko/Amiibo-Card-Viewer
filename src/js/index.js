@@ -11,7 +11,7 @@ cartoes.forEach(cartao =>  {
 
         setTimeout(() => {
             cartaVirada.classList.toggle("mostrar-fundo-carta");
-        },300);
+        },205);
     });
 });
 

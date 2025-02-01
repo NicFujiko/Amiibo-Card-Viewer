@@ -1,7 +1,8 @@
 @media(max-width: 430px) {
     .lista, .cartao{
         top: 20px;
-        width: 90%;
+        width: 300px;
+        height: 500px;
         margin: 0;
     }
 
@@ -28,10 +29,10 @@
 }
 
 @media(max-width: 390px) {
-    .lista, .cartao{
+    .lista, .cartao, .carta-virada.mostrar-fundo-carta{
+        width: 300px;
+        height: 500px;
         top: 0px;
-        width: 90%;
-        margin: 0;
     }
 
     .rodape-carta{
@@ -62,8 +63,7 @@
 }
 
 @media(max-width: 375px) {
-    .lista, .cartao{
-        top: -5px;
+    .lista, .cartao, .carta-virada.mostrar-fundo-carta{
         width: 270px;
         height: 450px;
         margin: 0;
@@ -83,7 +83,7 @@
 
     .btn-seta{
         position: absolute;
-        bottom: -55px;
+        bottom: -65px;
     }
 
     .btn-seta, .btn-seta img{
