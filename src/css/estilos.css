@@ -120,27 +120,31 @@ header img{
 }
 
 .bg2{
-    background: url(../imagens/static/bg.jpg) no-repeat;
-}
-
-.bg3{
-    background: url(../imagens/eugene/bg.jpg) no-repeat;
-}
-
-.bg4{
-    background: url(../imagens/bob/bg.png) no-repeat;
-}
-
-.bg5{
     background: url(../imagens/lionel/bg.jpg) no-repeat;
 }
 
+.bg3{
+    background: url(../imagens/bob/bg.png) no-repeat;
+}
+
+.bg4{
+    background: url(../imagens/eugene/bg.jpg) no-repeat;
+}
+
+.bg5{
+    background: url(../imagens/static/bg.jpg) no-repeat;
+}
+
 .bg6{
-    background: url(../imagens/daisy/bg.jpg) no-repeat;
+    background: url(../imagens/zucker/bg.jpg) no-repeat;
 }
 
 .bg7{
-    background: url(../imagens/zucker/bg.jpg) no-repeat;
+    background: url(../imagens/daisy/bg.jpg) no-repeat;
+}
+
+.bg8{
+    background: url(../imagens/isabelle/bg.jpg) no-repeat;
 }
 
 .fundo{
