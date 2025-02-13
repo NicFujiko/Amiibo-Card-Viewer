@@ -60,6 +60,11 @@
         margin-top: 20px;
         width: 90%;
     }
+
+    #bigger-quote{
+        margin-top: 7px;
+        font-size: 13px;
+    }
 }
 
 @media(max-width: 375px) {

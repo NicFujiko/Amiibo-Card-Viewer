@@ -1,10 +1,10 @@
 # Amiibo Card Viewer - Animal Crossing  
 
-Este projeto é um **Visualizador de Amiibo** de **Animal Crossing**. Criado do zero, sem o uso de frameworks, com foco em **aprendizado**, ele explora conceitos de **desenvolvimento web** utilizando **HTML, CSS e JavaScript**. 
+Este projeto é um **Visualizador de Amiibos** de **Animal Crossing**. Criado do zero, sem o uso de frameworks, com foco em **aprendizado**, ele explora conceitos de **desenvolvimento web** utilizando **HTML, CSS e JavaScript**. 
 
 ## Funcionalidades  
 * Visualizar Amiibos de Animal Crossing (frente e verso)
-* Exibir informações detalhadas sobre cada villager:  
+* Exibir informações e curiosidades sobre cada villager:  
 
 ![about](src/imagens/about.png)
 

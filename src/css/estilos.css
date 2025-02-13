@@ -160,7 +160,12 @@ header img{
     font-size: 14px;
 }
 
-#daisy-quote{
+#big-quote{
+    margin-top: 10px;
+    font-size: 14px;
+}
+
+#bigger-quote{
     margin-top: 10px;
     font-size: 14px;
 }
